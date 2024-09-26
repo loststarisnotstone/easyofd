@@ -2,11 +2,11 @@ from easyofd.ofd import OFD
 
 # 读取OFD文件
 ofd = OFD()
-ofd.read('example.ofd')
+ofd.read('c:\\19ofd')
 2. 转换OFD到PDF：
 # 将OFD转换为PDF
 pdf_bytes = ofd.to_pdf()
-with open('output.pdf', 'wb') as pdf_file:
+with open('c:\\19output.pdf', 'wb') as pdf_file:
     pdf_file.write(pdf_bytes)
 3. 转换OFD到图片：
 # 将OFD转换为图片
